@@ -56,3 +56,41 @@ padding: 45px 75px 0 75px;
 .header__menu img{
 
 }
+
+main{
+    background-color: green;
+    display: flex;
+    padding: 45px 75px 0 75px;
+}
+
+.section__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.article__jumping{
+    width: 800px;
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+}
+
+.article__jumping h1{
+    color: var(--color-1);
+    font-family: "Poppins-semibold";
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.article__jumping p{
+
+}
+
+.div__buttons{
+    background-color: rebeccapurple;
+    display: flex;
+}
+
+.div__buttons a{
+
+}
