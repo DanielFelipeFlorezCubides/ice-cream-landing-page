@@ -4,3 +4,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+background-color: red;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.header__logo{
+    background-color: green ;
+}
+
+.header__logo img{
+    
+}
+
+.header__nav{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav li{
+
+}
+
+.header__nav li a{
+    
+}
+
+.header__nav li a img{
+    
+}
+
+.header__menu{
+    background-color: violet;
+}
+
+.header__menu img{
+
+}
