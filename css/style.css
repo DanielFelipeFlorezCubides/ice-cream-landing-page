@@ -66,10 +66,11 @@ main{
 .section__container{
     display: flex;
     justify-content: space-between;
+    gap: 400px;
 }
 
 .article__jumping{
-    width: 800px;
+    width: 679px;
     background-color: violet;
     display: flex;
     flex-direction: column;
@@ -78,19 +79,86 @@ main{
 .article__jumping h1{
     color: var(--color-1);
     font-family: "Poppins-semibold";
-    font-size: 80px;
-    line-height: 80px;
+    font-size: 100px;
+    line-height: 90%;
 }
 
 .article__jumping p{
-
+    font-family: "Poppins-Medium";
+    font-size: 18px;
+    color: var(--color-6);
+    line-height: 123%;
 }
 
 .div__buttons{
     background-color: rebeccapurple;
     display: flex;
+    gap: 38px;
 }
 
 .div__buttons a{
+    width: 264px;
+    height: 86px;
+    border-radius: 14px;
+    border: 1px solid var(--color-1);
+    background: transparent;
+    font-family: "Poppins-Regular";
+    font-size: 23px;
+    color: var(--color-1);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.div__buttons:hover a:hover{
+    outline: none;
+    backdrop-filter: blur(24px);
+}
+
+.article__reviews{
+    background-color: red;
+    padding: 20px;
+}
+
+.div__reviews-container{
+    background-color: blue;
+    padding: 20px;
+}
+
+.div__reviews-cards{
+    background-color: green;
+    padding: 20px;
+}
+
+.div__reviews-profile{
+    background-color: violet;
+    padding: 20px;
+    display: flex;
+}
+
+.div__reviews-profile img{
+    background-color: orange;
+    padding: 20px;
+}
+
+.div__reviews-cards p{
+
+}
+
+.div__reviews-rating{
+    background-color: yellow;
+    padding: 20px;
+}
+
+.div__reviews-rating h3{
+
+}
+
+.div__reviews-stars{
+    background-color: olive;
+}
+
+.div__reviews-stars img{
+    background-color: turquoise;
 }
